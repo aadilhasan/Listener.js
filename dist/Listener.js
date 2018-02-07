@@ -40,13 +40,13 @@
   };
 
   /**
-      * add event data to Listeners object
-      *
-      * @param {string} name
-      * @param {function} cb
-      * @param {object} options
-      
-      */
+   * add event data to Listeners object
+   *
+   * @param {string} name
+   * @param {function} cb
+   * @param {object} options
+   *
+   */
 
   Listener.prototype.on = function(name, cb, options) {
     if (name === undefined) {
@@ -79,6 +79,7 @@
    * @param {string} name
    * @param {object} data
    * @param {context} ctx
+   * @param {object} options
    *
    */
 
