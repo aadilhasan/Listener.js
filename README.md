@@ -93,6 +93,10 @@ this object has 3 keys:
 
 default data can be anything user wants to pass to every listener given in first argument array.
 
+#### default_context
+
+default context for all the listeners given in first argument.
+
 #### default_options
 
 ###### removeAfter (default value: false) `<boolean>` :
